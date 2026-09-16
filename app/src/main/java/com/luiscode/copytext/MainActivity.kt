@@ -109,20 +109,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.captureButton
             )
 
-        val testAccessibilityButton =
-            findViewById<Button>(
-                R.id.testAccessibilityButton
-            )
-
-        testAccessibilityButton.setOnClickListener {
-
-            val intent =
-                Intent(
-                    CopyTextAccessibilityService.ACTION_TEST_CAPTURE
-                ).setPackage(packageName)
-
-            sendBroadcast(intent)
-        }
 
         captureButton.setOnClickListener {
             requestScreenCapture()
