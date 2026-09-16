@@ -48,7 +48,7 @@
             android:id="@+id/resultTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Texto reconhecido"
+            android:text="Texto extraído"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#000000"
@@ -56,9 +56,9 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="160dp"
+            android:layout_height="180dp"
             android:background="#FFFFFFFF"
-            android:padding="12dp">
+            android:padding="16dp">
 
             <TextView
                 android:id="@+id/resultText"
@@ -82,8 +82,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Copiar"
-                android:textAllCaps="false" />
+                android:text="Copiar texto"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/newSelectionButton"

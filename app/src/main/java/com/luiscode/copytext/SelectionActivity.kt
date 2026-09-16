@@ -161,7 +161,7 @@ class SelectionActivity : AppCompatActivity() {
                 runOnUiThread {
 
                     confirmButton.isEnabled = true
-                    confirmButton.text = "Selecionar"
+                    confirmButton.text = "Extrair texto"
 
                     if (text.isBlank()) {
 
@@ -191,7 +191,7 @@ class SelectionActivity : AppCompatActivity() {
                 runOnUiThread {
 
                     confirmButton.isEnabled = true
-                    confirmButton.text = "Selecionar"
+                    confirmButton.text = "Extrair texto"
 
                     Toast.makeText(
                         this,
